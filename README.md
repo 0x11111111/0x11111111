@@ -25,4 +25,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 - I’m currently working on 3D dental mesh manipulation.
-- Leanring MeshLib, CGAL, VTK, Libigl, etc.
+- Learning MeshLib, CGAL, VTK, Libigl, etc.
