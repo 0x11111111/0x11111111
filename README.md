@@ -10,6 +10,12 @@ JavaScript   9 mins          ▒░░░░░░░░░░░░░░░░
 
 <!--END_SECTION:waka-->
 
+<!--START_SECTION:waka_lang_chart_svg-->
+<!--END_SECTION:waka_lang_chart_svg-->
+
+<!--START_SECTION:waka_coding_activity_svg-->
+<!--END_SECTION:waka_coding_activity_svg-->
+
 <!--
 **0x11111111/0x11111111** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
