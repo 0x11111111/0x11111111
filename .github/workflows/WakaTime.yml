@@ -4,12 +4,30 @@ on:
   workflow_dispatch:
   schedule:
     - cron: "0 */2 * * *"
+  push:
+    branches:
+      - main
 
 jobs:
   update-readme:
     name: Update this repo's README
     runs-on: ubuntu-latest
     steps:
-      - uses: athul/waka-readme@master 
+      - uses: actions/checkout@v2
+
+      - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
+
+      - name: Insert Language Chart SVG Link
+        run: |
+          sed -i '/<!--START_SECTION:waka_lang_chart_svg-->/,/<!--END_SECTION:waka_lang_chart_svg-->/c\<!--START_SECTION:waka_lang_chart_svg-->\n[![Language Chart](https://wakatime.com/share/@DYPro_MIKE/13ed6aa1-fa8f-42b5-8fa7-97c58e94375f.svg)](https://wakatime.com)\n<!--END_SECTION:waka_lang_chart_svg-->' README.md
+
+      - name: Insert Coding Activity SVG Link
+        run: |
+          sed -i '/<!--START_SECTION:waka_coding_activity_svg-->/,/<!--END_SECTION:waka_coding_activity_svg-->/c\<!--START_SECTION:waka_coding_activity_svg-->\n[![Coding Activity](https://wakatime.com/share/@DYPro_MIKE/2224f81a-edc4-46bb-b59e-25de5147ed15.svg)](https://wakatime.com)\n<!--END_SECTION:waka_coding_activity_svg-->' README.md
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Update README with WakaTime stats and SVG links
