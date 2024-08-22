@@ -11,9 +11,11 @@ JavaScript   9 mins          ▒░░░░░░░░░░░░░░░░
 <!--END_SECTION:waka-->
 
 <!--START_SECTION:waka_lang_chart_svg-->
+[![Language Chart](https://wakatime.com/share/@DYPro_MIKE/13ed6aa1-fa8f-42b5-8fa7-97c58e94375f.svg)](https://wakatime.com)
 <!--END_SECTION:waka_lang_chart_svg-->
 
 <!--START_SECTION:waka_coding_activity_svg-->
+[![Coding Activity](https://wakatime.com/share/@DYPro_MIKE/2224f81a-edc4-46bb-b59e-25de5147ed15.svg)](https://wakatime.com)
 <!--END_SECTION:waka_coding_activity_svg-->
 
 <!--
