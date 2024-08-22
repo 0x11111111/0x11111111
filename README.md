@@ -24,5 +24,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-- I’m currently working on 3D dental mesh manipulation.
-- Learning MeshLib, CGAL, VTK, Libigl, etc.
+- Mainly coding on 3D dental mesh manipulation.
+- Learning MeshLib, CGAL, VTK, Libigl, Electron, Vue, etc.
+- Currently learning to develop Electron app with Vue.
+- Never thought of becoming a frontend developer one day. To be honest, this process is much more interesting than I expected.
