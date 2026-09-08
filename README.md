@@ -1,11 +1,11 @@
 <!--START_SECTION:waka-->
 
 ```txt
-SSH Config     3 hrs 56 mins         ████████▒░░░░░░░░░░░░░░░░   33.55 %
-TypeScript     3 hrs 8 mins          ██████▓░░░░░░░░░░░░░░░░░░   26.65 %
-Markdown       2 hrs 49 mins         ██████░░░░░░░░░░░░░░░░░░░   23.98 %
-JavaScript     40 mins               █▒░░░░░░░░░░░░░░░░░░░░░░░   05.76 %
-Other          19 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.79 %
+Markdown       2 hrs 53 mins         ███████████░░░░░░░░░░░░░░   43.45 %
+TypeScript     2 hrs 20 mins         ████████▓░░░░░░░░░░░░░░░░   35.01 %
+JavaScript     35 mins               ██▒░░░░░░░░░░░░░░░░░░░░░░   08.82 %
+Desktop file   18 mins               █░░░░░░░░░░░░░░░░░░░░░░░░   04.59 %
+YAML           12 mins               ▓░░░░░░░░░░░░░░░░░░░░░░░░   03.00 %
 ```
 
 <!--END_SECTION:waka-->
